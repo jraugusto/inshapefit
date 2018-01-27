@@ -1,0 +1,742 @@
+/*
+Theme Name:         G5Plus April Child
+Theme URI:          http://themes.g5plus.net/april/
+Description:        G5Plus April is a premium responsive WordPress theme created especially for shop online with clean and modern design. <a href="http://www.g5plus.net">Visit site</a>
+Author:             g5plus
+Author URI:         http://g5plus.net/
+Version:            1.2
+Template:           g5plus-april
+*/
+
+@import url("../g5plus-april-child/woocommerce-child.css");
+
+* {
+	letter-spacing: 0 !important;
+}
+
+.titulo-padrao{
+
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    margin-bottom: -1rem;
+}
+
+.titulo-padrao strong {
+	font-weight: 900;
+}
+
+.espaco-depoimentos{
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+.espaco-padrao-topo, .espaco-padrao {
+	padding-top: 6rem;
+}
+
+.espaco-padrao, .espaco-padrao-bottom {
+        padding-bottom:5rem;
+}
+
+.skin-1516121394145, .gf-skin .skin-1516121394145, .gf-skin .gf-skin .skin-1516121394145, .gf-skin .gf-skin .gf-skin .skin-1516121394145 {
+	background: #05d97e; /* Old browsers */
+	background: -moz-linear-gradient(left, #05d97e 0%, #05ead4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #05d97e 0%,#05ead4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #05d97e 0%,#05ead4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05d97e', endColorstr='#05ead4',GradientType=1 ); /* IE6-9 */
+}
+
+
+.cor-linha, .rodape, .btn-parcerias .btn.btn-primary, .bg-marmita-fit, .form-contato input[type="submit"] {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05d97e+0,05ead4+100 */
+background: #05d97e; /* Old browsers */
+background: -moz-linear-gradient(left, #05d97e 0%, #05ead4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #05d97e 0%,#05ead4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #05d97e 0%,#05ead4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05d97e', endColorstr='#05ead4',GradientType=1 ); /* IE6-9 */
+}
+
+.sub-rodape {
+    padding: 1.1rem 0;
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.faixa-destaque-banner h4 {
+	text-transform: uppercase;
+}
+
+
+.faixa-destaque-banner {
+	padding-bottom: 2.2rem;
+    padding-top: 2.5rem;
+}
+
+.linha-produto .woocommerce-Price-amount amount {
+	font-size: 2rem;
+	color: #05d97e;
+}
+
+.on-new {
+	background-color: #05da80 !important;
+	font-size: 1rem !important;
+}
+
+.depoimento-box > .owl-stage-outer > .owl-stage > .owl-item > .testimonial-item > .testimonials-content {
+
+    font-family: 'Montserrat';
+    letter-spacing: 0;
+    font-size: 2rem;
+    border: solid 1px #05da80;
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+.depoimento-box .author-info .author-attr h6 {
+	color: #05da80 !important;
+	font-size: 2.5rem;
+}
+
+
+.main-menu > .menu-item > a:hover { border-bottom: none !important }
+
+
+
+/* EDITANDO OS BOX DE PRODUTOS */
+
+
+
+.product-thumb img {
+	border-radius: 1rem;
+}
+
+.product-name a {
+	font-weight: 400;
+	font-size: 1.4rem;
+
+}
+
+.woocommerce-Price-amount {
+
+}
+
+.box-promo-produto > .products > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item article {
+	background-color: white;
+	border-radius: 1rem;
+	min-height: 440px;
+}
+
+
+.box-promo-produto .product-thumb img {
+	border-radius: 0;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.price > del , .price > del > .woocommerce-Price-amount {
+	color:#bfbfbf !important;
+}
+
+.price > del > .woocommerce-Price-amount {
+	font-size: 1.3rem;
+}
+
+.product-name {
+	padding:  0 2rem;
+	min-height: 40px;
+	line-height: 1.3 !important;
+}
+
+.titulo-rodape {
+	text-transform: uppercase;
+}
+
+.logo-header img {
+	    max-height: 85px !important;
+}
+
+.main-menu > .menu-item > a:before {
+	height: 0px !important;
+}
+
+.main-menu > .menu-item > a:hover > span, .main-menu > .menu-item > a:hover > b  {
+	color: #00ce5c;
+
+}
+
+
+
+.rodape {
+	color: white;
+}
+
+
+.btn-parcerias .btn.btn-sm {
+	    font-size: 18px;
+	    padding: 1.8rem 5rem;
+}
+
+.btn-parcerias .btn.btn-primary {
+	color: black;
+	border:none;
+}
+
+.btn-parcerias .btn.btn-primary:hover {
+	color: white;
+	background: black;
+}
+
+.espaco-parcerias {
+	padding-top: 50px;
+}
+
+/* PAGINA DE PRODUTO - SINGLE PRODUCTS */
+
+.woocommerce div.product .product_title {
+	text-transform: uppercase;;
+	color: #00ce5c;
+	font-weight: 700;
+}
+
+
+
+.widget_product_categories  li a {
+	font-weight: 400 !important;
+	text-transform: none !important;
+	letter-spacing: 0 !important;
+	font-size: 1.4rem !important;
+
+}
+
+.product-categories .cat-item {
+	margin-top: 6px;
+
+}
+
+.primary-sidebar-inner h4{
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid #00ce5c;
+ }
+
+.primary-sidebar-inner {
+	border-right: 1px solid rgba(0, 0, 0, 0.05);
+	padding-right: 1.5rem;
+
+}
+
+.woocommerce .widget_price_filter .price_slider_amount {
+	font-size: 1.3rem
+}
+
+.widget + .widget {
+	margin-top: 25px !important;
+	margin-bottom: 40px !important;
+
+}
+
+h4.widget-title {
+	margin-bottom:2.5rem !important;
+	font-size: 1.6rem;
+}
+
+.summary-product .product_meta > span + span, .summary-product .gf-product-share {
+	margin-top: 0 !important;
+}
+
+
+.single-product-controls {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.product-addon-sem-lactose h3 {
+	display: none;
+}
+
+.summary-product table.variations label {
+	text-transform: none !important;
+}
+
+/*
+
+.single-product-info, .single-product-controls, .related.products {
+	padding-left: 9rem;
+	padding-right: 9rem;
+}
+
+*/
+
+.shopping-cart-icon > .icon span {background-color: #00ce5c !important}
+
+
+.prev-product, .next-product {
+	color: #05e9d0 !important;
+}
+
+.single-product-controls {
+	margin-bottom: 9rem !important;
+}
+
+
+
+/* form de contato */
+
+.form-convenios-parcerias input[type="text"], .form-convenios-parcerias input[type="email"], .form-convenios-parcerias input[type="tel"], .form-convenios-parcerias textarea {
+	background-color: white !important;
+	color:black;
+}
+
+
+.form-contato input, .form-convenios-parcerias input {
+	width: 100%;
+}
+
+.form-contato textarea, .form-convenios-parcerias textarea {
+	border:none;
+	width: 100% !important;
+}
+
+
+/* ALTERAR TEXTO DO PLACEHOLDER */
+
+.form-contato ::-webkit-input-placeholder {
+  font-weight: 300;
+  font-size: 1.4rem;
+
+}
+
+.form-contato :-moz-placeholder {
+   font-weight: 300;
+   font-size: 1.4rem;
+
+}
+
+.form-contato ::-moz-placeholder {
+   font-weight: 300;
+   font-size: 1.4rem;
+
+}
+
+.form-contato :-ms-input-placeholder {
+   font-weight: 300;
+   font-size: 1.4rem;
+
+}
+
+
+/* ALTERAR TEXTO DO PLACEHOLDER */
+
+
+.form-convenios-parcerias ::-webkit-input-placeholder {
+  font-weight: 300;
+  font-size: 1.4rem;
+
+}
+
+.form-convenios-parcerias :-moz-placeholder {
+   font-weight: 300;
+   font-size: 1.4rem;
+
+}
+
+.form-convenios-parcerias ::-moz-placeholder {
+   font-weight: 300;
+   font-size: 1.4rem;
+
+}
+
+.form-convenios-parcerias :-ms-input-placeholder {
+   font-weight: 300;
+   font-size: 1.4rem;
+
+}
+/* ALTERAR TEXTO DO PLACEHOLDER */
+
+
+.form-contato label, .form-convenios-parcerias label {width: 100%}
+
+.form-contato input[type="submit"], .form-convenios-parcerias input[type="submit"] {
+
+	width: auto;
+    text-align: center;
+    margin: auto;
+    display: inherit;
+    border-radius: 0;
+    border: none;
+}
+
+.form-contato input[type="submit"]:hover {
+	background: black !important;
+}
+
+.form-convenios-parcerias input[type="submit"]:hover {
+	background-color:white;
+	color: black;
+}
+
+.caminho-texto ul li a span, .caminho-texto > .gf-breadcrumbs > .breadcrumb-sep {
+	color: black !important;
+}
+
+.box-icon-contato {
+	padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.box-fale-conosco {
+	padding-bottom: 5rem;
+}
+
+footer .widget_nav_menu ul.menu li a, footer a {
+	color:white;
+}
+
+footer .widget_nav_menu ul.menu li {
+	margin-bottom: 0 !important;
+	margin-top: 1rem !important;
+}
+
+.gsf-product-wrap {
+
+padding-top: 30px;
+
+}
+
+.skin-light ul.gf-breadcrumbs li {
+
+color: #fff !important;
+
+}
+
+.skin-light ul.gf-breadcrumbs li.breadcrumb-leaf {
+
+	color: #fff !important;
+	border-bottom-color: #fff !important;
+
+}
+
+.summary-product .woocommerce-product-details__short-description {
+
+text-align: justify;
+
+}
+
+.stock {
+
+display: none;
+
+}
+
+
+.newsletter-form .mc4wp-form button {
+	background-color: black;
+	color: white !important;
+
+}
+
+.wpb_widgetised_column.wpb_content_element.campo-news {
+	margin-bottom: 1rem
+}
+
+.box-contador p {
+	font-size: 2rem;
+}
+
+.gf-social-networks ul.gf-social-icon > li {
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    font-size: 2.3rem;
+}
+
+.primary-sidebar-inner .woocommerce-Price-amount {
+	font-weight: 400 !important;
+ }
+
+ .primary-sidebar-inner del > .woocommerce-Price-amount {
+ 	color: #cecece !important;
+ 	font-size: 1.2rem !important;
+
+ }
+
+ .search-popup-wrap > .search-popup-form {
+ 	background-color:#05e9d0;
+ 	padding: 1px;
+ }
+
+ .search-popup-form button {
+ 	background-color: #05e9d0;
+ 	right:0px;
+
+ }
+
+ .sub-menu li a:hover span {
+ 	color: #00ce5c;
+ }
+
+.widget_nav_menu li a:hover span {
+	color: #00ce5c
+}
+
+
+.products > .owl-carousel > .owl-nav [class*='owl-']:not(.disabled):hover {
+
+	background-color: #05e9d0 !important;
+	border: none !important;
+	color: white !important;
+}
+
+.skin-light .owl-carousel > .owl-nav [class*='owl-'] { 
+	background-color: #00ce5c !important;
+	border: none !important;
+	color: white !important;
+
+}
+
+.box-promo-produto > .products > .owl-carousel > .owl-nav > .owl-prev, .box-promo-produto > .products > .owl-carousel > .owl-nav > .owl-next  {
+	top: 195px;
+}
+
+
+.products > .owl-carousel > .owl-nav > .owl-prev {
+	left: -61px;
+	margin-right: 0;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	top: 135px;
+}
+
+.products > .owl-carousel > .owl-nav > .owl-next {
+	right: -61px;
+	margin-left: 0;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	top: 135px;
+}
+
+.products > .owl-carousel > .owl-nav > .owl-prev.disabled, .products > .owl-carousel > .owl-nav > .owl-next.disabled  {
+	
+	opacity: 0.2;
+}
+
+.products > .owl-carousel > .owl-nav > .owl-prev.disabled i, .products > .owl-carousel > .owl-nav > .owl-next.disabled i {
+	color: ##00ce5c4f !important;
+}
+
+.x-nav-menu-container > .header-customize.header-customize-nav.gf-inline
+ {
+ 	margin-bottom: 15px;
+ }
+/*RESPONSIVO PRODUTOS BOLINHAS*/
+
+.skin-light .owl-carousel > .owl-dots .owl-dot span {
+	background: black !important;
+}
+
+.gsf-testimonials.depoimento-box > .owl-dots {
+	    margin-top: 25px !important;
+
+}
+
+.products .owl-carousel > .owl-dots {
+	margin-top: 35px !important;
+	display: none;
+
+}
+
+.titulo-mobile {
+	display: none;
+}
+
+.titulo-desktop {
+
+	display: block;
+}
+
+#ywgc-edit-message {
+	height: 100px;
+}
+
+
+.box-promo-produto .owl-carousel > .owl-dots .owl-dot span {
+	background: #00ce5c !important;
+}
+
+#tab-reviews {
+	display: none !important;
+}
+
+.woocommerce-MyAccount-navigation-link--downloads {
+	display: none !important;
+}
+
+/* .box-promo-produto .owl-dots > .owl-dot.active */
+
+/*RESPONSIVO DESIGN*/
+
+@media screen and (max-width: 768px) {
+
+.products > .gf-blog-inner > article {
+	padding: 0 35px;
+}
+
+footer .vc_column-inner >.wpb_wrapper > .vc_row-fluid > .vc_col-sm-6 {
+	width: 45%;
+    float: left;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+	padding-bottom: 18px !important;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+	padding: 5px 7px !important;
+    border-right: 1px solid #d6d6d6;
+    margin: 5px 0px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul li:last-child a {
+
+		border-right:none;
+
+}
+
+	#tab-reviews {display: none}
+
+	.titulo-desktop {
+		display: none;
+	}
+
+	.titulo-mobile {
+		display: block;
+		
+	}
+
+	.titulo-mobile h1 {
+		text-align: center;
+	}	
+	
+	.depoimento-box p {
+		font-size: 1.6rem;
+    	line-height: 2.6rem;
+	}
+
+	.titulo-padrao {
+
+    text-transform: uppercase;
+    font-size: 2.2rem;
+
+	}
+
+	.box-destaque .ib-content > h4 {
+
+		font-size:1 !important;
+	}
+
+	.faixa-destaque-banner .wpb_column {
+
+		margin-bottom: 1rem;
+	}
+
+	.espaco-depoimentos {
+
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.espaco-padrao-topo, .espaco-padrao {
+
+		padding-top: 3rem;
+	}
+
+	.espaco-padrao, .espaco-padrao-bottom {
+
+        padding-bottom:2.5rem;
+	}
+
+	.woocommerce .product span.price ins .woocommerce-Price-amount, .woocommerce .product span.price .woocommerce-Price-amount {
+
+		font-size: 1.8rem;
+	}
+
+	.woocommerce .product span.price > del > .woocommerce-Price-amount,  {
+
+		font-size:1.3rem;
+	}
+
+	.product-name a {
+
+		font-size: 1.4rem
+	}
+
+	.espaco-parcerias p { 
+
+		margin-bottom: 2rem !important;
+	}
+
+	.links-rodape {
+
+		margin-bottom: 0 !important;
+	}
+
+	.menu-menu-rodape-2-container {
+
+		margin-bottom: 35px;
+	}
+
+	.ywgc-preview {
+
+    	max-width: 100%;
+    	margin: 0;
+    	margin-bottom: 15px;
+   		border: 5px solid #F7F4F4;
+    	padding: 5px;
+   		float: none;
+  		 margin-right: 40px;
+	}
+
+	.gift-card-content-editor {
+
+    width: 100%;
+    float: none;
+
+	}
+
+	.woocommerce div.product .woocommerce-tabs .panel {
+    width: 100% !important;
+    margin-left: 0 !important;
+
+	}
+
+	.page-title-inner h1 {
+
+    font-size: 30px !important;
+	margin-bottom: 20px !important;
+
+	}
+
+	.gsf-catalog-filter, .gf-table-cell-right {
+		display: none !important;
+	}
+
+	.padding-produto-mobile > .products  {
+		padding: 0 20px !important; 
+	}
+
+	.products > .owl-carousel > .owl-nav {
+		display: none;
+	}
+
+	.products .owl-carousel > .owl-dots  {
+		display: block;
+	}
+
+	.woocommerce div.product p.price {
+
+		text-align: center;
+}
+
+}
+
+
+/*RESPONSIVO DESIGN*/

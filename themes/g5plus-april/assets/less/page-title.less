@@ -1,0 +1,25 @@
+@import "base/page-title";
+
+ul.gf-breadcrumbs {
+	display: inline-block;
+	li {
+		font-size: 14px;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		font-weight: 800;
+		a {
+			.gsf-link;
+			.transition(all 0.3s);
+		}
+		&.breadcrumb-sep {
+			font-size: 14px;
+			margin: 0 12px;
+		}
+		&.breadcrumb-leaf,
+		> span {
+			display: inline-block;
+			line-height: 12px;
+			border-bottom: 1px solid;
+		}
+	}
+}

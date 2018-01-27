@@ -1,0 +1,102 @@
+.gsf-our-team {
+    position: relative;
+    img {
+        width: 100%;
+    }
+    .ourteam-thumb {
+        position: relative;
+        overflow: hidden;
+        a {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+        &:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            content: '';
+            z-index: 1;
+            -webkit-transition: all 0.6s;
+            transition: all 0.6s;
+            -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
+            transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
+        }
+        .ourteam-thumb-inner {
+            .transition(all 0.3s);
+        }
+    }
+    .ourteam-content {
+        padding-top: 17px;
+        padding-bottom: 21px;
+        .ourteam-name {
+            margin-top: 0;
+            margin-bottom: 3px;
+            a {
+                .transition(all 0.3s);
+            }
+        }
+        .ourteam-position {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            .transition(all 0.3s);
+        }
+        .ourteam-socials {
+            position: absolute;
+            left: 50%;
+            bottom: 21px;
+            width: 100%;
+            .transition(all 0.3s);
+            .transform(translate(-50%, 30px));
+            opacity: 0;
+            visibility: hidden;
+            > a {
+                display: inline-block;
+                .transition(all 0.3s);
+                i, span {
+                    display: inline-block;
+                }
+                i {
+                    margin-right: 6px;
+                }
+                &:hover {
+                    color: #5576e2 !important;
+                    text-decoration: none;
+                }
+                + a {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    &.thumb-circle .ourteam-thumb {
+        .border-radius(50%);
+    }
+    &:hover {
+        .ourteam-thumb:before {
+            -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0);
+            transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0,150%,0);
+        }
+        .ourteam-thumb-inner {
+            .transform(scale3d(1.1,1.1,1.1));
+        }
+        .ourteam-content {
+            .ourteam-position {
+                opacity: 0;
+            }
+        }
+        .ourteam-socials {
+            opacity: 1;
+            visibility: visible;
+            .transform(translate(-50%, 0));
+        }
+    }
+}

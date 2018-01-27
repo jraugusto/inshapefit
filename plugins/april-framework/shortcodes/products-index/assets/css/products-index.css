@@ -1,0 +1,35 @@
+.gsf-products-index {
+  position: relative;
+}
+.gsf-products-index .products-wrap {
+  padding-right: 70px;
+}
+.gsf-products-index .products-wrap .product-info {
+  min-height: 70px;
+}
+.gsf-products-index .product-index-wrap {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-bottom: 90px;
+}
+.gsf-products-index .product-index-wrap .index-item {
+  font-weight: 700;
+  font-size: 14px;
+  color: #e0e0e0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: right;
+}
+.gsf-products-index .product-index-wrap .index-item + .index-item {
+  margin-top: 12px;
+}

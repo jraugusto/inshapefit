@@ -1,0 +1,93 @@
+.gsf-product-singular {
+  position: relative;
+}
+.gsf-product-singular img {
+  width: 100%;
+}
+.gsf-product-singular .product-thumbnail {
+  position: relative;
+}
+.gsf-product-singular .product-thumbnail:hover .owl-nav > div {
+  opacity: 1 !important;
+}
+.gsf-product-singular .product-thumbnail:hover .owl-nav > div.disabled {
+  opacity: 0.4 !important;
+  cursor: default;
+}
+.gsf-product-singular .product-thumbnail:hover .owl-nav .owl-prev {
+  left: 40px;
+}
+.gsf-product-singular .product-thumbnail:hover .owl-nav .owl-next {
+  right: 40px;
+}
+.gsf-product-singular .image-item {
+  position: relative;
+}
+.gsf-product-singular .additional-info {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  left: 50%;
+  top: 85px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: inline-block;
+  text-align: center;
+}
+.gsf-product-singular .owl-nav > div {
+  position: absolute;
+  top: 50%;
+  opacity: 0 !important;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.gsf-product-singular .owl-nav > div i {
+  font-size: 34px;
+}
+.gsf-product-singular .owl-nav > div.disabled {
+  cursor: default;
+}
+.gsf-product-singular .owl-nav .owl-prev {
+  left: 30px;
+}
+.gsf-product-singular .owl-nav .owl-prev i:before {
+  content: '\f124';
+}
+.gsf-product-singular .owl-nav .owl-next {
+  right: 30px;
+}
+.gsf-product-singular .owl-nav .owl-next i:before {
+  content: '\f125';
+}
+.gsf-product-singular .product-info {
+  padding-top: 35px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.gsf-product-singular .product-info .product-name {
+  font-weight: 400;
+  margin-top: 0;
+}
+.gsf-product-singular .product-info .price {
+  font-weight: 700;
+}
+.gsf-product-singular .product-info .price del {
+  margin-right: 10px;
+}
+.gsf-product-singular .product-info .price ins {
+  text-decoration: none;
+}

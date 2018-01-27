@@ -1,0 +1,27 @@
+.gsf-products-index {
+	position: relative;
+	.products-wrap {
+		padding-right: 70px;
+		.product-info {
+			min-height: 70px;
+		}
+	}
+	.product-index-wrap {
+		position: absolute;
+		right: 14px;
+		top: 50%;
+		.transform(translateY(-50%));
+		padding-bottom: 90px;
+		.index-item {
+			font-weight: 700;
+			font-size: 14px;
+			color: #e0e0e0;
+			cursor: pointer;
+			.transition(all 0.3s);
+			text-align: right;
+			+ .index-item {
+				margin-top: 12px;
+			}
+		}
+	}
+}

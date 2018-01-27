@@ -1,0 +1,15 @@
+.gsf-partner .partner-item {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.gsf-partner .partner-item img {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.gsf-partner .partner-item:hover {
+  opacity: 1 !important;
+}

@@ -1,0 +1,294 @@
+@-webkit-keyframes move {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 50px 50px;
+	}
+}
+
+@-moz-keyframes move {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 50px 50px;
+	}
+}
+.meter {
+	position: relative;
+	background: #555;
+	padding: 3px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+	display: block;
+	height: 100%;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+
+	background-color: rgb(43,194,83);
+	background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0, rgb(43,194,83)),
+			color-stop(1, rgb(84,240,84))
+	);
+	background-image: -moz-linear-gradient(
+			center bottom,
+			rgb(43,194,83) 37%,
+			rgb(84,240,84) 69%
+	);
+	-webkit-box-shadow:
+	inset 0 2px 9px  rgba(255,255,255,0.3),
+	inset 0 -2px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow:
+	inset 0 2px 9px  rgba(255,255,255,0.3),
+	inset 0 -2px 6px rgba(0,0,0,0.4);
+	box-shadow:
+	inset 0 2px 9px  rgba(255,255,255,0.3),
+	inset 0 -2px 6px rgba(0,0,0,0.4);
+	position: relative;
+	overflow: hidden;
+}
+.meter > span:after, .animate > span > span {
+	content: "";
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background-image:
+	-webkit-gradient(linear, 0 0, 100% 100%,
+	color-stop(.25, rgba(255, 255, 255, .2)),
+	color-stop(.25, transparent), color-stop(.5, transparent),
+	color-stop(.5, rgba(255, 255, 255, .2)),
+	color-stop(.75, rgba(255, 255, 255, .2)),
+	color-stop(.75, transparent), to(transparent)
+	);
+	background-image:
+	-moz-linear-gradient(
+			-45deg,
+			rgba(255, 255, 255, .2) 25%,
+			transparent 25%,
+			transparent 50%,
+			rgba(255, 255, 255, .2) 50%,
+			rgba(255, 255, 255, .2) 75%,
+			transparent 75%,
+			transparent
+	);
+	z-index: 1;
+	-webkit-background-size: 50px 50px;
+	-moz-background-size: 50px 50px;
+	background-size: 50px 50px;
+	-webkit-animation: move 2s linear infinite;
+	-moz-animation: move 2s linear infinite;
+	overflow: hidden;
+}
+
+.animate > span:after {
+	display: none;
+}
+.nostripes > span:after {
+	-webkit-animation: none;
+	-moz-animation: none;
+	background-image: none;
+}
+.wp-core-ui .updated, .wp-core-ui .error, .wp-core-ui .notice-warning {
+	margin: 10px 15px 10px 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.g5plus-demo-data-wrapper * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.g5plus-demo-site-wrapper {
+	margin-right: 15px;
+}
+.g5plus-demo-site {
+	position: relative;
+	text-align: center;
+	-webkit-box-shadow: 0 0 5px 5px rgba(55,55,55, .1);
+	-moz-box-shadow: 0 0 5px 5px rgba(55,55,55, .1);
+	box-shadow: 0 0 5px 5px rgba(55,55,55, .1);
+	margin-bottom: 30px;
+}
+.g5plus-demo-site-inner {
+	position: relative;
+	background: #eee;
+}
+.g5plus-demo-site-inner:before {
+	content: '';
+	display: block;
+	padding-top: 58.888889%;
+}
+
+.g5plus-demo-site h3 {
+	background: #ddd;
+	color: #000;
+	margin: 0;
+	padding: 5px 0 0;
+	line-height: 32px;
+	text-align: left;
+}
+.g5plus-demo-site h3 > button {
+	font-size: 13px;
+	cursor: pointer;
+	text-align: center;
+	float: right;
+	padding: 0 10px;
+	background-color: #0073AA;
+	color: #fff;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-ms-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+	border: none;
+	line-height: 32px;
+}
+.g5plus-demo-site h3 > button + button {
+	margin-right: 10px;
+}
+
+.g5plus-demo-site h3 > button.not-install {
+	cursor: not-allowed;
+	background-color: #333!important;
+	color:#ddd!important;
+}
+.g5plus-demo-site h3 > button:hover {
+	background-color: #EE673A;
+}
+.g5plus-demo-site h3 > button i {
+	margin-right: 5px;
+}
+
+.g5plus-demo-site-inner .demo-site-thumbnail {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 1;
+}
+.g5plus-demo-site-inner .centered {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: translate(50%,50%);
+	-ms-transform: translate(50%,50%);
+	transform: translate(50%,50%);
+}
+.g5plus-demo-site-inner  img {
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+}
+.install-progress-wrapper .title {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color:#0073AA;
+}
+.demo-site-row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.demo-site-row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.demo-site-col {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 33%;
+	float: left;
+}
+.progress-bar {
+	height: 20px;
+	position: absolute;
+	z-index: 999;
+	background-color: rgba(0,95,150,0.8);
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.link-demo {
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 80px;
+	height: 30px;
+	background: rgba(0,0,0,0.9);
+	margin: auto;
+	line-height: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	opacity: 0;
+	-webkit-transform: translateY(-30px);
+	-moz-transform: translateY(-30px);
+	-ms-transform: translateY(-30px);
+	-o-transform: translateY(-30px);
+	transform: translateY(-30px);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.g5plus-demo-site:hover .link-demo {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+.g5plus-demo-data-wrapper.setting-up .install-button {
+	color: #fff!important;
+	background-color: #333!important;
+	cursor: not-allowed;
+}
+.g5plus-demo-site.in .install-button {
+	cursor: pointer;
+	background-color: #EE673A!important;
+	color: #fff!important;
+}
+.g5plus-demo-site.in .progress-bar{
+	opacity: 1;
+}
+.install-button > i {
+	display: none;
+}
+.install-button.in > i {
+	display: inline-block;
+}
+.setting-up.done {
+
+}

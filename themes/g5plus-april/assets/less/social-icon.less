@@ -1,0 +1,131 @@
+ul.gf-social-icon {
+	font-size: 16px;
+	padding-left: 0;
+	> li {
+		margin: 0 30px 10px 0;
+		display: inline-block;
+		a {
+			.gsf-link;
+			.transition(all 0.3s);
+		}
+	}
+	&.social-icon-small {
+		font-size: 12px;
+	}
+	&.social-icon-large {
+		font-size: 18px;
+	}
+}
+.gf-social-networks ul.gf-social-icon {
+	padding-left: 0;
+}
+
+ul.social-icon-circle {
+	> li {
+		margin: 0 10px 10px 0;
+		> a {
+			width: 39px;
+			height: 39px;
+			text-align: center;
+			display: block;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			border: 1px solid;
+			position: relative;
+			> i {
+				line-height: 39px;
+			}
+		}
+		&.social-icon-small > li > a {
+			width: 29px;
+			height: 29px;
+			> i {
+				line-height: 29px;
+			}
+		}
+		&.social-icon-large > li > a {
+			width: 47px;
+			height: 47px;
+			> i {
+				line-height: 47px;
+			}
+		}
+	}
+}
+
+ul.social-icon-square {
+	> li {
+		margin: 0 10px 10px 0;
+		> a {
+			&:extend(.primary-font);
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			display: inline-block;
+			border: 1px solid;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			font-weight: bold;
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			line-height: 40px;
+			.transition(all .5s);
+		}
+	}
+	&.social-icon-small > li> a {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 12px;
+		i {
+			line-height: 33px;
+		}
+	}
+	&.social-icon-large > li> a {
+		width: 48px;
+		height: 48px;
+		line-height: 48px;
+		font-size: 16px;
+		i {
+			line-height: 46px;
+		}
+	}
+}
+
+ul.social-icon-circle-outline {
+	> li {
+		margin: 0 10px 10px 0;
+		> a {
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			display: block;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			border: 1px solid;
+			&:extend(.text-color);
+			font-size: 14px;
+			.transition(all .5s);
+			&:hover,
+			&:focus {
+				border-color: transparent !important;
+			}
+		}
+	}
+	&.social-icon-small > li> a {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+	}
+	&.social-icon-large > li> a {
+		width: 48px;
+		height: 48px;
+		line-height: 48px;
+		font-size: 16px;
+	}
+}

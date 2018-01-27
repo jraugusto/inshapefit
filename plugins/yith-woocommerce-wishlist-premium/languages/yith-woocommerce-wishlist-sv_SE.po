@@ -1,0 +1,1607 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Wishlist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-11 14:59+0100\n"
+"PO-Revision-Date: 2018-01-11 14:59+0100\n"
+"Last-Translator: Smartfix <info@smartfix.se>\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-wcwl-admin-init.php:159
+#: ../includes/class.yith-wcwl-admin-init.php:1483
+#: ../includes/class.yith-wcwl-admin-init.php:1484
+#: ../includes/class.yith-wcwl-install.php:244
+msgid "Wishlist"
+msgstr "Önskelista"
+
+#: ../includes/class.yith-wcwl-admin-init.php:161
+#: ../includes/class.yith-wcwl-admin-init.php:251
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../includes/class.yith-wcwl-admin-init.php:162
+#: ../includes/class.yith-wcwl-admin-init.php:236
+msgid "Colors"
+msgstr "Färger"
+
+#: ../includes/class.yith-wcwl-admin-init.php:163
+#: ../includes/class.yith-wcwl-admin-init.php:255
+msgid "Premium Version"
+msgstr "Premiumversionen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:256
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: ../includes/class.yith-wcwl-admin-init.php:280
+msgid ""
+"WARNING: This plugin requires at least WooCommerce 2.2! Please, use this "
+"link to update it."
+msgstr ""
+"Varning: Det här tillägget kräver minst WooCommerce 2.2! Vänligen, använd "
+"den här länken för att uppdatera det."
+
+#: ../includes/class.yith-wcwl-admin-init.php:283
+msgid "WARNING: This plugin requires at least WooCommerce 2.2!"
+msgstr "Varning: Det här tillägget kräver minst WooCommerce 2.2!"
+
+#: ../includes/class.yith-wcwl-admin-init.php:288
+msgid "Plugin Documentation"
+msgstr "Tilläggets Dokumentation"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1023
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr "Uppgradera till PREMIUMVERSIONEN"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1026
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce Önskelista"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1027
+msgid "Discover the Advanced Features"
+msgstr "Upptäck Avancerade Funktioner"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1028
+msgid ""
+"Upgrade to the PREMIUM VERSION of YITH WOOCOMMERCE WISHLIST to benefit from "
+"all features!"
+msgstr ""
+"Uppgradera till PREMIUMVERSIONEN av YITH WOOCOMMERCE ÖNSKELISTA för att dra "
+"nytta av alla funktioner!"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1034
+msgid "Get Support and Pro Features"
+msgstr "Få support och Pro-funktioner"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1035
+msgid ""
+"By purchasing the premium version of the plugin, you will take advantage of "
+"the advanced features of the product and you will get one year of free "
+"updates and support through our platform available 24h/24."
+msgstr ""
+"Genom att köpa premiumverisonen av det här tillägget, kommer du att få "
+"tillgång till de avancerade funktionerna och ett års fria uppdateringar och "
+"support genom vår plattform som är tillgänglig dygnet runt."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1045
+msgid "General Settings"
+msgstr "Allmänna Inställningar"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1052
+msgid "Enable YITH Wishlist"
+msgstr "Aktivera YITH Önskelista"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1053
+#, php-format
+msgid ""
+"Enable all plugin features. <strong>Be sure to select at least one option in "
+"the Wishlist page menu in this settings page.</strong> Also, please read the "
+"plugin <a href=\"%s\" target=\"_blank\">documentation</a>."
+msgstr ""
+"Aktivera alla funktioner i tillägget. <strong>Var noga med att välja minst "
+"ett alternativ i Önskelistans sidmeny på den här inställningssidan.</strong> "
+"Vänligen läs också <a href=\"%s\" target=\"_blank\">dokumentationen</a> för "
+"tillägget."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1059
+msgid "Default wishlist title"
+msgstr "Förvald titel för önskelista"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1061
+#: ../includes/class.yith-wcwl-admin-init.php:1062
+#: ../includes/class.yith-wcwl-admin-init.php:1298
+#, php-format
+msgid "My wishlist on %s"
+msgstr "Min önskelista på %s"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1067
+msgid "Wishlist Page"
+msgstr "Sida för Önskelista"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1068
+msgid "Page contents: [yith_wcwl_wishlist]"
+msgstr "Sidinnehåll: [yith_wcwl_wishlist]"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1077
+msgid "Position"
+msgstr "Position"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1078
+msgid ""
+"You can add the button in variable products only after the \"Add to Cart\" "
+"button or using the shortcode [yith_wcwl_add_to_wishlist]."
+msgstr ""
+"Du kan bara lägga till knappen i variabla produkter, efter knappen \"Lägg "
+"till i Varukorgen\" eller använda kortkoden [yith_wcwl_add_to_wishlist]."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1084
+msgid "After \"Add to cart\""
+msgstr "Efter \"Lägg till i Varukorgen\""
+
+#: ../includes/class.yith-wcwl-admin-init.php:1085
+msgid "After thumbnails"
+msgstr "Efter tumnaglar"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1086
+msgid "After summary"
+msgstr "Efter sammanfattning"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1087
+msgid "Use shortcode"
+msgstr "Använd kortkod"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1092
+msgid "Redirect to cart"
+msgstr "Omdirigera till varukorgen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1093
+msgid ""
+"Redirect to cart page if \"Add to cart\" button is clicked in the wishlist "
+"page."
+msgstr ""
+"Omdirigera till varukorgen om knappen \"Lägg till i varukorgen\" på "
+"önskelistans sida har tryckts på."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1099
+msgid "Remove if added to the cart"
+msgstr "Ta bort om den lagts till i varukorgen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1100
+msgid "Remove the product from the wishlist if it has been added to the cart."
+msgstr "Ta bort produkten från önskelistan om den har lagts till i varukorgen."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1106
+msgid "\"Add to Wishlist\" text"
+msgstr "\"Lägg till i önskelistan\" texten"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1108
+msgid "Add to Wishlist"
+msgstr "Lägg till i Önskelista"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1113
+msgid "\"Browse wishlist\" text"
+msgstr "\"Bläddra i önskelista\" texten"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1115
+#: ../includes/class.yith-wcwl-ui.php:82 ../includes/class.yith-wcwl-ui.php:83
+msgid "Browse Wishlist"
+msgstr "Bläddra i önskelista"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1120
+msgid "\"Product already in wishlist\" text"
+msgstr "\"Produkten finns redan i önskelistan\" texten"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1122
+#: ../includes/class.yith-wcwl-ui.php:83
+msgid "The product is already in the wishlist!"
+msgstr "Produkten finns redan i önskelistan!"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1127
+msgid "\"Product added\" text"
+msgstr "\"Produkten lades till\" texten"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1129
+#: ../includes/class.yith-wcwl-ui.php:82
+msgid "Product added!"
+msgstr "Produkt lades till!"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1134
+msgid "\"Add to Cart\" text"
+msgstr "\"Lägg till i Varukorgen\" texten"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1136
+msgid "Add to Cart"
+msgstr "Lägg till i varukorgen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1141
+msgid "Show Unit price"
+msgstr "Visa Enhetspris"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1142
+msgid "Show unit price for each product in wishlist"
+msgstr "Visa enhetspris för varje produkt i önskelistan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1149
+msgid "Show \"Add to Cart\" button"
+msgstr "Visa \"Lägg till i Varukorgen\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1150
+msgid "Show \"Add to Cart\" button for each product in wishlist"
+msgstr ""
+"Visa knappen \"Lägg till i Varukorgen\" för varje produkt i önskelistan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1157
+msgid "Show Stock status"
+msgstr "Visa lagerstatus"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1158
+msgid ""
+"Show \"In stock\" or \"Out of stock\" label for each product in wishlist"
+msgstr ""
+"Visa etiketten \"I lager\" eller \"Slut i lager\" för varje produkt i "
+"önskelistan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1165
+msgid "Show Date of addition"
+msgstr "Visa Datum för tillägg"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1166
+msgid "Show the date when users have added a product to the wishlist"
+msgstr "Visa datumet när användare har lagt till en produkt i önskelistan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1173
+msgid "Add second remove button"
+msgstr "Lägg till ytterligare en ta bort knapp"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1174
+msgid "Add a second remove button in the last column, with extended label"
+msgstr ""
+"Lägg till ytterligare en ta bort knapp i sista kolumnen, med utökad etikett"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1189
+msgid "Styles"
+msgstr "Stilar"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1196
+msgid "Use buttons"
+msgstr "Använd knappar"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1197
+msgid "Use buttons instead of simple anchors."
+msgstr "Använd knappar i stället för enkla länkar."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1203
+msgid "Custom CSS"
+msgstr "Anpassad CSS"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1210
+msgid "Use theme style"
+msgstr "Använd temastil"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1211
+msgid "Use the theme style."
+msgstr "Använd temastilen."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1217
+msgid "Rounded buttons"
+msgstr "Rundade knappar"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1218
+msgid "Make button corners rounded"
+msgstr "Gör knapphörnen rundade"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1224
+msgid "\"Add to Wishlist\" icon"
+msgstr "\"Lägg till i Önskelistan\" ikon"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1225
+msgid "Add an icon to the \"Add to Wishlist\" button"
+msgstr "Lägg till en ikon på \"Lägg till i Önskelistan\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1235
+msgid "\"Add to Cart\" icon"
+msgstr "\"Lägg till i Varukorgen\" ikon"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1236
+msgid "Add an icon to the \"Add to Cart\" button"
+msgstr "Lägg till en ikon på \"Lägg till i Varukorgen\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1254
+msgid "Social Networks & Share"
+msgstr "Sociala nätverk & Delning"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1261
+msgid "Share on Facebook"
+msgstr "Dela på Facebook"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1262
+msgid "Show \"Share on Facebook\" button"
+msgstr "Visa \"Dela på Facebook\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1268
+msgid "Tweet on Twitter"
+msgstr "Tweeta på Twitter"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1269
+msgid "Show \"Tweet on Twitter\" button"
+msgstr "Visa \"Tweeta på Twitter\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1275
+msgid "Pin on Pinterest"
+msgstr "Pinna på Pinterest"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1276
+msgid "Show \"Pin on Pinterest\" button"
+msgstr "Visa knappen \"Pinna på Pinterest"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1282
+msgid "Share on Google+"
+msgstr "Dela på Google+"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1283
+msgid "Show \"Share on Google+\" button"
+msgstr "Visa \"Dela på Google+\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1289
+msgid "Share by Email"
+msgstr "Dela via E-post"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1290
+msgid "Show \"Share by Email\" button"
+msgstr "Visa \"Dela med E-post\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1296
+msgid "Social title"
+msgstr "Social titel"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1303
+msgid "Social text"
+msgstr "Social text"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1304
+msgid ""
+"It will be used by Twitter and Pinterest. Use <strong>%wishlist_url%</"
+"strong> where you want to show the URL of your wishlist."
+msgstr ""
+"Den kommer användas av Twitter och Pinterest. Använd <strong>%wishlist_url%</"
+"strong> där du vill visa webbadressen till din önskelista."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1311
+msgid "Social image URL"
+msgstr "Social bildadress"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1312
+msgid "It will be used by Pinterest."
+msgstr "Den kommer att användas av Pinterest."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1326
+#, php-format
+msgid ""
+"If you want to take advantage of this feature, you could consider to "
+"purchase the %s."
+msgstr ""
+"Om du vill dra nytta av de här funktionen, kan du överväga att köpa %s."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1331
+msgid "YITH WooCommerce Frequently Bought Together Integration"
+msgstr "YITH WooCommerce Ofta Köpt Tillsammans Integration"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1338
+msgid "Enable slider in wishlist"
+msgstr "Aktivera slider i önskelista"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1339
+#, php-format
+msgid ""
+"Choose to enable product slider in wishlist page with linked products (<a "
+"href=\"%s\" class=\"thickbox\">Example</a>). %s"
+msgstr ""
+"Välj att aktivera produktslider med länkade produkter på önskelistans sida "
+"(<a href=\"%s\" class=\"thickbox\">Exempel</a>). %s"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1375
+msgid "\"Add to wishlist\" button"
+msgstr "Knappen \"Lägg till i önskelistan"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1378
+#: ../includes/class.yith-wcwl-admin-init.php:1396
+#: ../includes/class.yith-wcwl-admin-init.php:1414
+#: ../includes/class.yith-wcwl-admin-init.php:1432
+#: ../includes/class.yith-wcwl-admin-init.php:1450
+msgid "Background"
+msgstr "Bakgrund"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1379
+#: ../includes/class.yith-wcwl-admin-init.php:1397
+#: ../includes/class.yith-wcwl-admin-init.php:1415
+#: ../includes/class.yith-wcwl-admin-init.php:1433
+#: ../includes/class.yith-wcwl-admin-init.php:1451
+msgid "Text"
+msgstr "Text"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1380
+#: ../includes/class.yith-wcwl-admin-init.php:1398
+#: ../includes/class.yith-wcwl-admin-init.php:1416
+#: ../includes/class.yith-wcwl-admin-init.php:1434
+#: ../includes/class.yith-wcwl-admin-init.php:1452
+msgid "Border"
+msgstr "Kantlinje"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1387
+#: ../includes/class.yith-wcwl-admin-init.php:1405
+#: ../includes/class.yith-wcwl-admin-init.php:1423
+#: ../includes/class.yith-wcwl-admin-init.php:1441
+msgid "Background (hover)"
+msgstr "Bakgrund (hover)"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1388
+#: ../includes/class.yith-wcwl-admin-init.php:1406
+#: ../includes/class.yith-wcwl-admin-init.php:1424
+#: ../includes/class.yith-wcwl-admin-init.php:1442
+msgid "Text (hover)"
+msgstr "Text (hover)"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1389
+#: ../includes/class.yith-wcwl-admin-init.php:1407
+#: ../includes/class.yith-wcwl-admin-init.php:1425
+#: ../includes/class.yith-wcwl-admin-init.php:1443
+msgid "Border (hover)"
+msgstr "Kantlinje (hover)"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1393
+msgid "\"Add to Cart\" button"
+msgstr "\"Lägg till i Varukorgen\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1411
+msgid "\"Style 1\" button"
+msgstr "\"Style 1\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1429
+msgid "\"Style 2\" button"
+msgstr "\"Style 2\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1447
+msgid "Wishlist table"
+msgstr "Önskelistans tabell"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1456
+msgid "Headers"
+msgstr "Rubriker"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1459
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1549
+msgid "Wishlist Activated"
+msgstr "Önskelista Aktiverad"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1550
+#, php-format
+msgid ""
+"In the YIT Plugin tab you can find the Wishlist options. With this menu, you "
+"can access to all the settings of our plugins that you have activated. "
+"Wishlist is available in an outstanding PREMIUM version with many new "
+"options, <a href=\"%s\">discover it now</a>."
+msgstr ""
+"I fliken YIT Plugin hittar du Önskelistans alternativ. Med den här menyn, "
+"kan du komma åt alla inställningar i våra tillägg som du har aktiverat. "
+"Önskelista är tillgänglig som en enastående PREMIUM version med många nya "
+"alternativ, <a href=\"%s\">upptäck den nu</a>."
+
+#: ../includes/class.yith-wcwl-admin-init.php:1561
+msgid "Wishlist Updated"
+msgstr "Önskelista Uppdaterad"
+
+#: ../includes/class.yith-wcwl-admin-init.php:1562
+#, php-format
+msgid ""
+"From now on, you can find all the options of Wishlist under YIT Plugin -> "
+"Wishlist instead of WooCommerce -> Settings -> Wishlist, as in the previous "
+"version. When one of our plugins is updated, a new voice will be added to "
+"this menu. Wishlist has been updated with new available options, <a href=\"%s"
+"\">discover the PREMIUM version.</a>"
+msgstr ""
+"Från och med nu, kan du hitta alla alternativ för Önskelista under YIT "
+"Plugin -> Önskelista i stället för WooCommerce -> Inställningar -> "
+"Önskelista, som i den föregående versionen. När ett av våra tillägg "
+"uppdateras, läggs ett nytt menyalternativ till i den här menyn. Önskelista "
+"har uppdaterats med nya tillgängliga alternativ, <a href=\"%s\">upptäck "
+"PREMIUM-versionen.</a>"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:123
+msgid "Promotional email sent correctly"
+msgstr "Kampanjmeddelande skickades korrekt"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:130
+msgid "There was an error while sending emails; please, try again later"
+msgstr ""
+"Det uppstod ett fel när meddelanden skickades. Vänligen, försök igen senare"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:146
+msgid "Show \"Add to Cart\" checkbox"
+msgstr "Visa \"Lägg till i Varukorgen\" kryssruta"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:147
+msgid "Show the checkbox to add multiple items to the cart with one click"
+msgstr ""
+"Visa kryssrutan att lägga till flera artiklar i varukorgen med ett klick"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:155
+msgid "Show \"Move to another wishlist\" dropdown menu"
+msgstr "Visa \"Flytta till en annan önskelista\" rullgardinsmeny"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:156
+msgid ""
+"Show the dropdown menu to move one item to another user defined wishlist"
+msgstr ""
+"Visa rullgardinsmenyn för att flytta en artikel till en annan "
+"användardefinierad önskelista"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:172
+msgid "Premium Settings"
+msgstr "Premiuminställningar"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:179
+msgid "Disable the wishlist for unauthenticated users"
+msgstr "Inaktivera önskelistan för oautentiserade användare"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:180
+msgid ""
+"Disable the wishlist features for unauthenticated users, redirecting them to "
+"the login page"
+msgstr ""
+"Inaktivera önskelistans funktioner för oautentiserade användare, omdirigera "
+"dem till inloggningssidan"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:187
+msgid "Show login notice before wishlist table"
+msgstr "Visa notis om att logga in före önskelistans tabell"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:189
+msgid ""
+"This option lets you add a notice before the wishlist table to ask "
+"unauthorized users to login (use %login_anchor% placeholder to show login "
+"link; leave empty to hide)"
+msgstr ""
+"Det här alternativet låter dig lägga till en notis före önskelistans tabell "
+"för att be oautentiserade användare att logga in (använd %login_anchor% "
+"platshållare för att visa onloggningslänken; lämna tomt för att dölja)"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:190
+msgid "Please %login_anchor% to use all wishlist features"
+msgstr "Vänligen %login_anchor% för att använda alla önskelistans funktioner"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:196
+msgid "Login anchor text"
+msgstr "Länktexten för att logga in"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:198
+msgid ""
+"This options lets you customize the login anchor text shown in wishlist "
+"login notice"
+msgstr ""
+"Det här alternativet låter dig anpassa texten för länken logga in som visas "
+"i notisen på önskelistans sida"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:199
+msgid "login"
+msgstr "logga in"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:205
+msgid "Wishlist search page title"
+msgstr "Titeln på önskelistans söksida"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:207
+msgid "This option lets you customize the title of the wishlist search page"
+msgstr "Det här alternativet låter dig anpassa titeln på önskelistans söksida"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:208
+#, php-format
+msgid "Search a wishlist on %s"
+msgstr "Sök en önskelista på %s"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:213
+msgid "Enable multi-wishlist support"
+msgstr "Aktivera stöd för multi-önskelista"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:214
+#, php-format
+msgid ""
+"Enable multi-wishlist support for logged in users (<a href=\"%s\" class="
+"\"thickbox\">Example</a>)"
+msgstr ""
+"Aktivera stöd för multi-önskelista för inloggade användare (<a href=\"%s\" "
+"class=\"thickbox\">Exempel</a>)"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:220
+msgid "Show \"Product already in wishlist\" on multi-wishlist"
+msgstr "Visa \"Produkt finns redan i önskelista\" för multi-önskelista"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:221
+msgid ""
+"Show \"Product already in wishlist\" message also when a multi-wishlist is "
+"activated"
+msgstr ""
+"Visa meddelande \"Produkt finns redan i önskelista\" även när multi-"
+"önskelista är aktiverad"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:227
+msgid "\"Add to Wishlist\" popup button text"
+msgstr "Texten \"Lägg till i Önskelistan\" på knappen i popupfönstret"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:229
+msgid "Text of the \"Add to Wishlist\" button in the popup"
+msgstr "Texten på knappen \"Lägg till i Önskelistan\" i popupfönstret"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:230
+msgid "Add to wishlist"
+msgstr "Lägg till i önskelista"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:235
+msgid "Enable \"Ask for an estimate\" button"
+msgstr "Aktivera \"Be om ett kostnadsförslag\" knappen"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:236
+#, php-format
+msgid ""
+"Shows \"Ask for an estimate\" button on wishlist page (<a href=\"%s\" class="
+"\"thickbox\">Example</a>)"
+msgstr ""
+"Visa knappen \"Be om ett kostnadsförslag\" på sidan för önskelista (<a href="
+"\"%s\" class=\"thickbox\">Exempel</a>)"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:242
+msgid "Show additional notes when asking for an estimante"
+msgstr "Visa ytterligare information vid förfrågan av ett kostnadsförslag"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:243
+#, php-format
+msgid ""
+"Shows \"Additional notes\" text area to let users add more information when "
+"asking for an estimate (<a href=\"%s\" class=\"thickbox\">Example</a>)"
+msgstr ""
+"Visa textrutan för \"Ytterligare information\" för att låta användare lägga "
+"till mer information när de ber om ett kostnadsförslag (<a href=\"%s\" class="
+"\"thickbox\">Exempel</a>)"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:249
+msgid "Label for \"Additional notes\" text area"
+msgstr "Etikett på \"Ytterligare information\" textrutan"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:251
+msgid ""
+"This option lets you customize the label for \"Additional notes\" text area"
+msgstr ""
+"Det här alternativet låter dig anpassa etiketten för \"Ytterligare "
+"information\" textruta"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:252
+msgid "Additional notes"
+msgstr "Ytterligare information"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:257
+msgid "Show links"
+msgstr "Visa länkar"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:258
+msgid ""
+"Show the links for the \"manage\", \"create\", and \"search\" pages after "
+"the wishlist table"
+msgstr ""
+"Visa länkarna till sidorna \"hantera\", \"skapa\" och \"sök\" efter "
+"önskelistans tabell"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:264
+msgid "Title of the \"Create wishlist\" page"
+msgstr "Titeln på \"Skapa önskelista\" sidan"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:266
+msgid ""
+"This option lets you customize the title of the page where you can create a "
+"new wishlist (only when additional info textarea is enabled)"
+msgstr ""
+"Det här alternativet låter dig anpassa titeln på sidan där du kan skapa en "
+"ny önskelista (bara om textruta med ytterligare info är aktiverad)"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:267
+#: ../templates/wishlist-manage.php:95
+msgid "Create a new wishlist"
+msgstr "Skapa en ny önskelista"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:272
+msgid "Title of the \"Manage wishlist\" page"
+msgstr "Titel på \"Hantera önskelista\" sidan"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:274
+msgid ""
+"This option lets you customize the title of the page where you can manege "
+"the wishlist"
+msgstr ""
+"Det här alternativet låter dig anpassa titeln på sidan där du kan hantera "
+"önskelistan"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:275
+#, php-format
+msgid "Manage your wishlists on %s"
+msgstr "Hantera dina önskelistor på %s"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:320
+#: ../templates/wishlist-manage.php:32
+msgid "Wishlists"
+msgstr "Önskelistor"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:321
+msgid "Popular"
+msgstr "Populär"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:322
+msgid "\"Ask for an estimate\" email"
+msgstr "\"Be om ett kostnadsförslag\" meddelandet"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:323
+msgid "Promotional email"
+msgstr "Kampanjmeddelande"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:371
+msgid "Popular products"
+msgstr "Populära produkter"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:374
+msgid "Search by product"
+msgstr "Sök efter produkt"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:385
+#, php-format
+msgid "Users that have added \"%s\" <a href=\"%s\" class=\"add-new-h2\">%s</a>"
+msgstr ""
+"Användare som har lagt till \"%s\" <a href=\"%s\" class=\"add-new-h2\">%s</a>"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:385
+msgid "Back to popular"
+msgstr "Tillbaka till populära"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:388
+msgid "Search by user"
+msgstr "Sök efter användare"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:467
+msgid ""
+"In the YIT Plugin tab you can find the Wishlist options. With this menu, you "
+"can access to all the settings of our plugins that you have activated."
+msgstr ""
+"I fliken YIT Tillägg hittar du Önskelistans alternativ. Med den här menyn, "
+"kan du komma åt alla inställningar för våra tillägg som du har aktiverat."
+
+#: ../includes/class.yith-wcwl-admin-premium.php:478
+msgid ""
+"From now on, you can find all the options of Wishlist under YIT Plugin -> "
+"Wishlist instead of WooCommerce -> Settings -> Wishlist, as in the previous "
+"version. When one of our plugins is updated, a new voice will be added to "
+"this menu."
+msgstr ""
+"Från och med nu, kan du hitta alternativen för Önskelista under YIT Plugin -"
+"> Önskelista i stället för WooCommerce -> Inställningar -> Önskelista, som i "
+"den föregående versionen. När ett av våra tillägg uppdateras, läggs ett nytt "
+"menyalternativ till i den här menyn."
+
+#: ../includes/class.yith-wcwl-admin-premium.php:551
+msgid "User ID"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-premium.php:552
+msgid "User Email"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-premium.php:553
+msgid "User First Name"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-premium.php:554
+msgid "User Last Name"
+msgstr ""
+
+#: ../includes/class.yith-wcwl-admin-premium.php:586
+msgid "Wishlist Count"
+msgstr "Antal Önskelistor"
+
+#: ../includes/class.yith-wcwl-admin-premium.php:800
+msgid "Wishlist \"Ask an estimate\""
+msgstr "Önskelista \"Be om ett kostnadsförslag\""
+
+#: ../includes/class.yith-wcwl-admin-premium.php:804
+msgid "Wishlist Promotion"
+msgstr "Önskelistans kampanj"
+
+#: ../includes/class.yith-wcwl-init.php:374
+msgid ""
+"We are sorry, but this feature is available only if cookies are enabled on "
+"your browser."
+msgstr ""
+"Vi ber om ursäkt, men den här funktionen är bara tillgänglig om cookies är "
+"aktiverat i din webbläsare."
+
+#: ../includes/class.yith-wcwl-init.php:375
+msgid "Product correctly added to cart"
+msgstr "Produkt lades till i varukorgen"
+
+#: ../includes/class.yith-wcwl-install.php:243
+msgctxt "page_slug"
+msgid "wishlist"
+msgstr "onskelista"
+
+#: ../includes/class.yith-wcwl-premium.php:123
+#: ../includes/class.yith-wcwl.php:785
+msgid "You need to log in before creating a new wishlist"
+msgstr "Du måste logga in innan du skapar en ny önskelista"
+
+#: ../includes/class.yith-wcwl-premium.php:128
+msgid "Wishlist name is required"
+msgstr "Namn på önskelistan krävs"
+
+#: ../includes/class.yith-wcwl-premium.php:132
+msgid "Wishlist name exceeds the maximum number of characters allowed"
+msgstr "Önskelistans namn överskrider det maximala antalet tecken som tillåts"
+
+#: ../includes/class.yith-wcwl-premium.php:171
+msgid "Error occurred while creating a new wishlist."
+msgstr "Fel inträffade när en ny önskelista skulle skapas."
+
+#: ../includes/class.yith-wcwl-premium.php:247
+msgid "Manage wishlists"
+msgstr "Hantera önskelistor"
+
+#: ../includes/class.yith-wcwl-premium.php:247
+msgid "Manage"
+msgstr "Hantera"
+
+#: ../includes/class.yith-wcwl-premium.php:248
+msgid "Create wishlist"
+msgstr "Skapa önskelista"
+
+#: ../includes/class.yith-wcwl-premium.php:248
+msgid "Create"
+msgstr "Skapa"
+
+#: ../includes/class.yith-wcwl-premium.php:249
+msgid "Search wishlists"
+msgstr "Sök önskelistor"
+
+#: ../includes/class.yith-wcwl-premium.php:249
+#: ../templates/wishlist-search.php:32
+msgid "Search"
+msgstr "Sök"
+
+#: ../includes/class.yith-wcwl-premium.php:324
+msgid "Please, log in to use the wishlist features"
+msgstr "Vänligen, logga in för att använda önskelistans funktioner"
+
+#: ../includes/class.yith-wcwl-premium.php:437
+msgid "Wishlist correctly created"
+msgstr "Önskelistan skapades korrekt"
+
+#: ../includes/class.yith-wcwl-premium.php:475
+msgid "Wishlist successfully deleted"
+msgstr "Borttagningen av önskelista lyckades"
+
+#: ../includes/class.yith-wcwl-premium.php:475
+msgid "There was an error while deleting the wishlist; please try again later!"
+msgstr ""
+"Det uppstod ett fel när önskelistan skulle tas bort. Vänligen, försök igen "
+"senare!"
+
+#: ../includes/class.yith-wcwl-premium.php:501
+msgid "Estimate request sent"
+msgstr "Förfrågan om kostnadsförslag har skickats"
+
+#: ../includes/class.yith-wcwl-premium.php:504
+msgid "You should provide a valid email, that we can use to contact you"
+msgstr "Du måste ange en giltig e-postadress, som vi kan kontakta dig på"
+
+#: ../includes/class.yith-wcwl-premium.php:550
+msgid "You have to select at least one product"
+msgstr "Du måste välja minst en produkt"
+
+#: ../includes/class.yith-wcwl-premium.php:628
+#, php-format
+msgid "Element correctly moved to %s"
+msgstr "Element flyttades till %s"
+
+#: ../includes/class.yith-wcwl-premium.php:628
+msgid ""
+"There was an error while moving an item to another wishlist. Please, try "
+"again later"
+msgstr ""
+"Det uppstod ett fel när en artikel flyttades till en annan önskelista. "
+"Vänligen, försök igen senare"
+
+#: ../includes/class.yith-wcwl-shortcode-premium.php:109
+#: ../includes/class.yith-wcwl-shortcode-premium.php:150
+msgid "Sorry! This feature is available only for logged users"
+msgstr ""
+"Vi ber om ursäkt! Den här funktionen är bara tillgänglig för inloggade "
+"användare"
+
+#: ../includes/class.yith-wcwl-shortcode-premium.php:265
+msgid "Select a Wishlist"
+msgstr "Välj en Önskelista"
+
+#: ../includes/class.yith-wcwl-shortcode.php:259
+#: ../includes/class.yith-wcwl-ui.php:164
+msgid "Share on:"
+msgstr "Dela på:"
+
+#: ../includes/class.yith-wcwl-ui.php:118
+#: ../includes/class.yith-wcwl-ui.php:200
+msgid "Select options"
+msgstr "Välj alternativ"
+
+#: ../includes/class.yith-wcwl-ui.php:168 ../templates/share.php:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../includes/class.yith-wcwl-ui.php:171 ../templates/share.php:26
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../includes/class.yith-wcwl-ui.php:180
+msgid "email"
+msgstr "e-postadress"
+
+#: ../includes/class.yith-wcwl.php:177
+msgid "An error occurred while adding products to the wishlist."
+msgstr "Ett fel uppstod när du la till produkter i önskelistan."
+
+#: ../includes/class.yith-wcwl.php:269
+msgid "An error occurred while adding products to wishlist."
+msgstr "Ett fel uppstod när du la till produkter i önskelistan."
+
+#: ../includes/class.yith-wcwl.php:286
+msgid "The \"Remove\" option now does not require any parameter"
+msgstr "Alternativet \"Ta bort\" kräver nu ingen parameter"
+
+#: ../includes/class.yith-wcwl.php:335
+msgid "An error occurred while removing products from the wishlist"
+msgstr "Ett fel uppstod när du tog bort produkter från önskelistan"
+
+#: ../includes/class.yith-wcwl.php:1582
+msgid "Product successfully removed."
+msgstr "Produkten har tagits bort."
+
+#: ../includes/class.yith-wcwl.php:1586
+msgid "Error. Unable to remove the product from the wishlist."
+msgstr "Fel. Det gick inte att ta bort produkten från önskelistan."
+
+#: ../includes/class.yith-wcwl.php:1590 ../templates/wishlist-view.php:242
+msgid "No products were added to the wishlist"
+msgstr "Inga produkter lades till i önskelistan"
+
+#: ../includes/class.yith-wcwl.php:1632
+msgid "An error as occurred."
+msgstr "Ett fel har inträffat."
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:61
+msgid "Wishlist \"Ask for an estimate\" email"
+msgstr "Önskelistans \"Be om ett kostnadsförslag\" e-postmeddelande"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:62
+msgid ""
+"This email is sent when a user click the \"ask for an estimate\" button, "
+"only if this feature has been enabled in the wishlist option panel"
+msgstr ""
+"Det här meddelandet skickas när en användare klickar på knappen \"Be om ett "
+"kostnadsförslag\", endast om den här funktionen har aktiverats i önskelistan "
+"alternativpanel"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:64
+msgid "Estimate request"
+msgstr "Förfrågan om kostnadsförslag"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:65
+msgid "[Estimate request]"
+msgstr "[Förfrågan om kostnadsförslag]"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:219
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:305
+msgid "Subject"
+msgstr "Ämne"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:221
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:307
+#, php-format
+msgid ""
+"This field lets you modify the email subject line. Leave blank to use the "
+"default subject: <code>%s</code>."
+msgstr ""
+"Det här fältet låter dig ändra e-postens ämnesrad. Lämna tomt för att "
+"använda standardämnet: <code>%s</code>."
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:226
+msgid "Recipient(s)"
+msgstr "Mottagare"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:228
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>"
+msgstr ""
+"Ange mottagare (kommaseparerad) av det här e-postmeddelandet.  Standard är "
+"<code>%s</code>"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:233
+msgid "Send CC copy"
+msgstr "Skicka CC kopia"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:235
+msgid "Send a carbon copy to the user"
+msgstr "Skicka en kopia till användaren"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:239
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:312
+msgid "Email Heading"
+msgstr "E-postrubrik"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:241
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:314
+#, php-format
+msgid ""
+"This field lets you modify the main heading contained within the email "
+"notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"I det här fältet kan du ändra huvudrubriken i e-postmeddelandet. Lämna tomt "
+"för att använda standardrubriken: <code>%s</code>."
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:246
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:319
+msgid "Email type"
+msgstr "Typ av e-post"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:248
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:321
+msgid "Choose which type of email to send."
+msgstr "Välj vilken typ av e-post att skicka."
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:252
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:325
+msgid "Plain text"
+msgstr "Oformatterad text"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:253
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:326
+msgid "HTML"
+msgstr "HTML"
+
+#: ../includes/emails/class.yith-wcwl-estimate-email.php:254
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:327
+msgid "Multipart"
+msgstr "Multipart"
+
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:43
+msgid "Wishlist Promotional Email"
+msgstr "Önskelistans kampanjmeddelande"
+
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:44
+msgid ""
+"This email is sent to users to inform them about a promotion on a product "
+"that was added to their wishlist"
+msgstr ""
+"Det här e-postmeddelandet skickas till användare för att informera dem om en "
+"kampanj på en produkt som lagts till i deras önskelista"
+
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:46
+msgid "There is a deal for you!"
+msgstr "Det finns ett erbjudande för dig!"
+
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:47
+msgid "A product of your wishlist is on sale"
+msgstr "En produkt i din önskelista är på rea"
+
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:331
+msgid "Email HTML Content"
+msgstr "Innehåll i E-post (html)"
+
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:333
+msgid ""
+"This field lets you modify the main content of the HTML email. You can use "
+"the following placeholder: <code>{user_name}</code> <code>{user_email}</"
+"code> <code>{user_first_name}</code> <code>{user_last_name}</code> "
+"<code>{product_image}</code> <code>{product_name}</code> "
+"<code>{product_price}</code> <code>{coupon_code}</code> <code>{coupon_amount}"
+"</code> <code>{add_to_cart_url}</code>"
+msgstr ""
+"I det här fältet kan du ändra innehållet i e-postmeddelande (html). Du kan "
+"använda följande platshållare: <code>{user_name}</code> <code>{user_email}</"
+"code> <code>{user_first_name}</code> <code>{user_last_name}</code> "
+"<code>{product_image}</code> <code>{product_name}</code> "
+"<code>{product_price}</code> <code>{coupon_code}</code> <code>{coupon_amount}"
+"</code> <code>{add_to_cart_url}</code>"
+
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:350
+msgid "Email Text Content"
+msgstr "Innehåll i E-post (text)"
+
+#: ../includes/emails/class.yith-wcwl-promotion-email.php:352
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:23
+msgid ""
+"This field lets you modify the main content of the text email. You can use "
+"the following placeholder: <code>{user_name}</code> <code>{user_email}</"
+"code> <code>{user_first_name}</code> <code>{user_last_name}</code> "
+"<code>{product_name}</code> <code>{product_price}</code> <code>{coupon_code}"
+"</code> <code>{coupon_amount}</code> <code>{coupon_value}</code> "
+"<code>{add_to_cart_url}</code>"
+msgstr ""
+"I det här fältet kan du ändra innehållet i e-postmeddelande (text). Du kan "
+"använda följande platshållare: <code>{user_name}</code> <code>{user_email}</"
+"code> <code>{user_first_name}</code> <code>{user_last_name}</code> "
+"<code>{product_name}</code> <code>{product_price}</code> <code>{coupon_code}"
+"</code> <code>{coupon_amount}</code> <code>{coupon_value}</code> "
+"<code>{add_to_cart_url}</code>"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:109
+msgid "View"
+msgstr "Visa"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:110
+#: ../templates/wishlist-manage.php:42 ../templates/wishlist-manage.php:80
+msgid "Delete"
+msgstr "Radera"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:138
+#: ../includes/tables/class.yith-wcwl-admin-table.php:236
+#: ../templates/add-to-wishlist-popup.php:68
+#: ../templates/wishlist-create.php:32 ../templates/wishlist-manage.php:55
+#: ../templates/wishlist-manage.php:73 ../templates/wishlist-view.php:218
+msgid "Public"
+msgstr "Publik"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:141
+#: ../includes/tables/class.yith-wcwl-admin-table.php:243
+#: ../templates/add-to-wishlist-popup.php:69
+#: ../templates/wishlist-create.php:33 ../templates/wishlist-manage.php:74
+#: ../templates/wishlist-view.php:212
+msgid "Shared"
+msgstr "Delad"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:144
+#: ../includes/tables/class.yith-wcwl-admin-table.php:250
+#: ../templates/add-to-wishlist-popup.php:70
+#: ../templates/wishlist-create.php:34 ../templates/wishlist-manage.php:75
+#: ../templates/wishlist-view.php:215
+msgid "Private"
+msgstr "Privat"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:147
+msgid "N/D"
+msgstr "N/D"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:181
+#: ../includes/tables/class.yith-wcwl-popular-table.php:181
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:149
+msgid "Name"
+msgstr "Namn"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:182
+msgid "Username"
+msgstr "Användarnamn"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:183
+#: ../templates/wishlist-manage.php:37
+msgid "Privacy"
+msgstr "Integritet"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:184
+msgid "Items in wishlist"
+msgstr "Artiklar i önskelistan"
+
+#: ../includes/tables/class.yith-wcwl-admin-table.php:229
+msgid "All"
+msgstr "Alla"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:68
+msgid "Edit this item"
+msgstr "Redigera den här attikeln"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:68
+#: ../includes/tables/class.yith-wcwl-popular-table.php:146
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:85
+msgid "Edit"
+msgstr "Redigera"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:69
+#: ../includes/tables/class.yith-wcwl-popular-table.php:143
+msgid "View users that have added this product to their wishlist"
+msgstr "Visa användare som har lagt till den här produkten i sin önskelista"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:69
+#: ../includes/tables/class.yith-wcwl-popular-table.php:143
+msgid "View users"
+msgstr "Visa användare"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:70
+#, php-format
+msgid "View Product \"%s\""
+msgstr "Visa Produkt \"%s\""
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:70
+msgid "View Product"
+msgstr "Visa Produkt"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:117
+msgid "N/A"
+msgstr ""
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:142
+msgid "Send promotional email"
+msgstr "Skicka kampanjmeddelande"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:144
+msgid "Export users that have added this product to their wishlist"
+msgstr ""
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:144
+msgid "Export users"
+msgstr ""
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:145
+#, php-format
+msgid "View \"%s\""
+msgstr "Visa \"%s\""
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:145
+msgid "View product"
+msgstr "Visa produkt"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:146
+#: ../templates/wishlist-view.php:32
+msgid "Edit title"
+msgstr "Redigera titel"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:180
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:148
+msgid "Image"
+msgstr "Bild"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:182
+msgid "Category"
+msgstr ""
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:183
+msgid "Wishlist count"
+msgstr "Antal önskelistor"
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:184
+msgid "Last promotional email sent"
+msgstr ""
+
+#: ../includes/tables/class.yith-wcwl-popular-table.php:185
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:151
+msgid "Actions"
+msgstr "Handlingar"
+
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:45
+msgid "product"
+msgstr "produkt"
+
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:85
+msgid "Edit this user"
+msgstr "Redigera den här användaren"
+
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:86
+msgid "Email this user"
+msgstr "Skicka e-post till den här användaren"
+
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:86
+msgid "Email user"
+msgstr "Skicka e-post till användare"
+
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:117
+msgid "Send Promotional Email"
+msgstr "Skicka kampanjmeddelande"
+
+#: ../includes/tables/class.yith-wcwl-users-popular-table.php:150
+msgid "Added on"
+msgstr "Lades till den"
+
+#: ../includes/widgets/class.yith-wcwl-widget.php:26
+msgid "YITH Wishlist"
+msgstr "YITH Önskelista"
+
+#: ../includes/widgets/class.yith-wcwl-widget.php:27
+msgid "A list of user's wishlists"
+msgstr "En lista med användarnas önskelistor"
+
+#: ../includes/widgets/class.yith-wcwl-widget.php:128
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../includes/widgets/class.yith-wcwl-widget.php:132
+msgid "\"Your wishlist\" link:"
+msgstr "\"Din önskelista\" länk:"
+
+#: ../includes/widgets/class.yith-wcwl-widget.php:138
+msgid "Show create link"
+msgstr "Visa länken för skapa"
+
+#: ../includes/widgets/class.yith-wcwl-widget.php:142
+msgid "Show search link"
+msgstr "Visa länken för sök"
+
+#: ../includes/widgets/class.yith-wcwl-widget.php:146
+msgid "Show manage link"
+msgstr "Visa länken för hantera"
+
+#: ../init.php:152
+msgid ""
+"YITH WooCommerce Wishlist is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Önskelista är aktiverad men inte effektiv. Den kräver "
+"WooCommerce för att fungera."
+
+#: ../templates/add-to-wishlist-popup.php:44
+msgid "My Wishlist"
+msgstr "Min Önskelista"
+
+#: ../templates/add-to-wishlist-popup.php:53
+msgid "Create a new list"
+msgstr "Skapa en ny lista"
+
+#: ../templates/add-to-wishlist-popup.php:63
+#: ../templates/wishlist-create.php:29
+msgid "Wishlist name"
+msgstr "Namnet på önskelistan"
+
+#: ../templates/admin/wishlist-panel-email.php:19
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#: ../templates/admin/wishlist-panel-lists.php:1
+msgid "Users' wishlists"
+msgstr "Användarnas önskelistor"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:1
+msgid "Set email content"
+msgstr "Ange innehållet i e-posten"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:9
+msgid "Email HTML content"
+msgstr "Innehållet i e-posten för HTML"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:13
+msgid ""
+"This field lets you modify the main content of the HTML email. You can use "
+"the following placeholder: <code>{user_name}</code> <code>{user_email}</"
+"code> <code>{user_first_name}</code> <code>{user_last_name}</code> "
+"<code>{product_image}</code> <code>{product_name}</code> "
+"<code>{product_price}</code> <code>{coupon_code}</code> <code>{coupon_amount}"
+"</code> <code>{coupon_value}</code> <code>{add_to_cart_url}</code>"
+msgstr ""
+"Det här fältet låter dig ändra huvudinnehållet i e-posten för HTML. Du kan "
+"använda följande platshållare: <code>{user_name}</code> <code>{user_email}</"
+"code> <code>{user_first_name}</code> <code>{user_last_name}</code> "
+"<code>{product_image}</code> <code>{product_name}</code> "
+"<code>{product_price}</code> <code>{coupon_code}</code> <code>{coupon_amount}"
+"</code> <code>{coupon_value}</code> <code>{add_to_cart_url}</code>"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:14
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:24
+msgid "View preview"
+msgstr "Visa förhandsgranskning"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:19
+msgid "Email plain text content"
+msgstr "E-post med oformatterat innehåll"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:30
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:54
+msgid "Use coupon"
+msgstr "Använd kupong"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:34
+msgid ""
+"Select whether you want to use a coupon in your email or not "
+"(<code>{coupon_code}</code> <code>{coupon_amount}</code> <code>{coupon_value}"
+"</code> it won't be replaced if you don't check this option)"
+msgstr ""
+"Välj huruvida du vill använda en kupong i din e-post eller inte "
+"(<code>{coupon_code}</code> <code>{coupon_amount}</code> <code>{coupon_value}"
+"</code> det kommer inte att ersättas om du inte markerar det här valet)"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:39
+msgid "Email related coupon"
+msgstr "E-postrelaterad kupong"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:41
+msgid "Select a coupon"
+msgstr "Välj en kupong"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:47
+msgid ""
+"Select a coupon, among defined ones, to be used as a reference to calculate "
+"coupons' placeholders in your email content."
+msgstr ""
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:48
+msgid "Create a new Coupon"
+msgstr ""
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:57
+#, php-format
+msgid ""
+"Please, <a href=\"%s\">enable Coupons</a> and <a href=\"%s\">create at least "
+"one</a>, in order to use Coupons' placeholders in your email content"
+msgstr ""
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:66
+msgid "Send emails"
+msgstr "Skicka e-post"
+
+#: ../templates/admin/wishlist-panel-send-promotional-email.php:67
+msgid "Back"
+msgstr "Tillbaka"
+
+#: ../templates/emails/ask-estimate.php:14
+#: ../templates/emails/plain/ask-estimate.php:13
+#, php-format
+msgid ""
+"You have received an estimate request from %s. The request is the following:"
+msgstr ""
+"Du har fått en förfrågan om kostnadsförslag från %s. Förfrågan gäller "
+"följande:"
+
+#: ../templates/emails/ask-estimate.php:19
+#: ../templates/emails/plain/ask-estimate.php:19
+#, php-format
+msgid "Wishlist: %s"
+msgstr "Önskelista: %s"
+
+#: ../templates/emails/ask-estimate.php:21
+msgid "Wishlist:"
+msgstr "Önskelista:"
+
+#: ../templates/emails/ask-estimate.php:27
+msgid "Product"
+msgstr "Produkt"
+
+#: ../templates/emails/ask-estimate.php:28
+msgid "Quantity"
+msgstr "Mängd"
+
+#: ../templates/emails/ask-estimate.php:50
+#: ../templates/emails/plain/ask-estimate.php:36
+msgid "Additional info:"
+msgstr ""
+
+#: ../templates/emails/ask-estimate.php:60
+#: ../templates/emails/plain/ask-estimate.php:44
+msgid "Additional data:"
+msgstr ""
+
+#: ../templates/emails/ask-estimate.php:79
+#: ../templates/emails/plain/ask-estimate.php:60
+msgid "Customer details"
+msgstr "Kunddetaljer"
+
+#: ../templates/emails/ask-estimate.php:81
+#: ../templates/emails/plain/ask-estimate.php:62
+msgid "Email:"
+msgstr "E-post:"
+
+#: ../templates/emails/plain/ask-estimate.php:20
+#, php-format
+msgid "Wishlist link: %s"
+msgstr "Länkar för önskelista: %s"
+
+#: ../templates/share.php:32
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../templates/share.php:38
+msgid "Google+"
+msgstr "Google+"
+
+#: ../templates/share.php:44
+msgid "Email"
+msgstr "E-post"
+
+#: ../templates/wishlist-create.php:39 ../templates/wishlist-view.php:41
+msgid "Save"
+msgstr "Spara"
+
+#: ../templates/wishlist-manage.php:100
+msgid "Save Settings"
+msgstr "Spara Inställningar"
+
+#: ../templates/wishlist-search.php:29
+msgid "Type a name or an email address"
+msgstr "Skriv ett namn eller en e-postadress"
+
+#: ../templates/wishlist-search.php:71
+msgid "User's wishlists:"
+msgstr "Användarens önskelista:"
+
+#: ../templates/wishlist-search.php:99
+#, php-format
+msgid "0 results for \"%s\" in Wishlist"
+msgstr "0 result för \"%s\" i Önskelistan"
+
+#: ../templates/wishlist-view.php:45
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../templates/wishlist-view.php:82
+msgid "Product Name"
+msgstr "Produktnamn"
+
+#: ../templates/wishlist-view.php:89
+msgid "Unit Price"
+msgstr "Enhetspris"
+
+#: ../templates/wishlist-view.php:102
+msgid "Stock Status"
+msgstr "Lagerstatus"
+
+#: ../templates/wishlist-view.php:152 ../templates/wishlist-view.php:232
+msgid "Remove this product"
+msgstr "Ta bort den här produkten"
+
+#: ../templates/wishlist-view.php:172
+msgid "Free!"
+msgstr "Gratis!"
+
+#: ../templates/wishlist-view.php:179
+msgid "Out of Stock"
+msgstr "Slut i Lager"
+
+#: ../templates/wishlist-view.php:179
+msgid "In Stock"
+msgstr "I Lager"
+
+#: ../templates/wishlist-view.php:188
+#, php-format
+msgid "Added on : %s"
+msgstr "Lades till den: %s"
+
+#: ../templates/wishlist-view.php:200
+msgid "Move"
+msgstr "Flytta"
+
+#: ../templates/wishlist-view.php:232
+msgid "Remove"
+msgstr "Ta bort"
+
+#: ../templates/wishlist-view.php:259
+msgid "Add the selected products to the cart"
+msgstr "Lägg de valda produkterna i varukorgen"
+
+#: ../templates/wishlist-view.php:267 ../templates/wishlist-view.php:313
+msgid "Ask for an estimate"
+msgstr "Be om ett kostnadsförslag"
+
+#: ../templates/wishlist-view.php:303
+msgid "Your email"
+msgstr "Din e-postadress"
+
+#~ msgid ""
+#~ "\n"
+#~ "Additional info:\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ytterligare info:\n"
+
+#~ msgid "I wanted you to see this site"
+#~ msgstr "Jag vill att du skulle se den här siten"

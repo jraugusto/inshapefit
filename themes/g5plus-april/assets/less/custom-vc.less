@@ -1,0 +1,167 @@
+@import "base/custom-vc";
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-tab>a {
+    font-weight: 800;
+    font-size: 14px;
+}
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title {
+    font-size: 16px;
+}
+.vc_toggle_title h4 {
+    font-size: 16px;
+}
+.vc_progress_bar .vc_label .vc_label_units {
+    position: absolute;
+    right: 0;
+}
+.vc_toggle {
+    margin-bottom: 0;
+}
+.vc_toggle_color_accent .vc_toggle_icon {
+    background-color: @accent_color;
+    border-color: transparent;
+}
+.vc_toggle.vc_toggle_color_accent {
+    background-color: #f8f8f8;
+    .vc_toggle_title {
+        & when (lightness(@background_color) < 50) {
+            background-color: #444;
+        }
+        & when (lightness(@background_color) >= 50) {
+            background-color: #f8f8f8;
+        }
+        padding: 10px 35px 15px 30px !important;
+        .transition(all 0.5s);
+        h4 {
+            &:extend(.heading-color);
+            .transition(all 0.5s);
+        }
+        .vc_toggle_icon {
+            .transition(all 0.5s);
+            background-color: @accent_color;
+            width: 15px;
+            height: 15px;
+            left: auto;
+            right: 20px;
+            &:before,
+            &:after {
+                background-color: @foreground_accent_color;
+            }
+            &:before {
+                width: 7px;
+                height: 1px;
+            }
+            &:after {
+                width: 1px;
+                height: 7px;
+            }
+        }
+    }
+    .vc_toggle_content {
+        padding: 10px 30px 30px;
+        margin-bottom: 0;
+    }
+    &.vc_toggle_active .vc_toggle_title {
+        &:extend(.bg-accent-color);
+        h4 {
+            &:extend(.foreground-accent-color);
+        }
+        .vc_toggle_icon {
+            background-color: @foreground_accent_color;
+            &:before,
+            &:after {
+                background-color: @accent_color;
+            }
+        }
+    }
+}
+.wpb-js-composer .vc_tta.vc_tta-accordion.vc_tta-color-accent {
+    &:not(.vc_tta-style-outline) {
+        .vc_tta-panel-heading,
+        .vc_tta-panel-body {
+            border: none;
+        }
+    }
+    &.vc_tta-style-outline {
+        .vc_tta-panel-heading,
+        .vc_tta-panel-body {
+            border: 2px solid @accent_color;
+            background-color: transparent;
+        }
+    }
+    .vc_tta-panel {
+        .vc_tta-panel-heading,
+        .vc_tta-panel-body {
+            & when (lightness(@background_color) < 50) {
+                background-color: #444;
+            }
+            & when (lightness(@background_color) >= 50) {
+                background-color: #f8f8f8;
+            }
+        }
+        .vc_tta-panel-heading {
+            a {
+                padding: 16px 20px 16px 30px !important;
+            }
+            i {
+                width: 15px;
+                height: 15px;
+                left: auto;
+                right: 20px;
+                &:extend(.bg-accent-color);
+                .border-radius(50%);
+                &:before,
+                &:after {
+                    background-color: @foreground_accent_color;
+                    border: none;
+                    .transform(translate(-50%, -50%));
+                    left: 50%;
+                    right: auto;
+                    top: 50%;
+                    bottom: auto;
+                }
+                &:before {
+                    width: 7px;
+                    height: 1px;
+                }
+                &:after {
+                    width: 1px;
+                    height: 7px;
+                }
+            }
+        }
+        .vc_tta-panel-body {
+            padding: 30px;
+        }
+    }
+    &:not(.vc_tta-style-outline) .vc_tta-panel{
+        &.vc_active {
+            .vc_tta-panel-heading {
+                .vc_tta-panel-title {
+                    &:extend(.foreground-accent-color);
+                }
+                &:extend(.bg-accent-color);
+                i {
+                    background-color: @foreground_accent_color;
+                    &:before,
+                    &:after {
+                        &:extend(.bg-accent-color);
+                    }
+                }
+            }
+        }
+    }
+}
+div.vc_progress_bar .vc_general.vc_single_bar {
+    height: 4px;
+    .vc_label {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-shadow: none;
+    }
+    .vc_bar {
+        .border-radius(0);
+    }
+}

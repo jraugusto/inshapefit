@@ -1,0 +1,236 @@
+@keyframes new-load-spin {
+  0% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  25% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+.gsf-view-demo .demo-thumb {
+  background-size: 100% auto;
+  -webkit-transition: all 5s;
+  -moz-transition: all 5s;
+  -ms-transition: all 5s;
+  -o-transition: all 5s;
+  transition: all 5s;
+  background-position: center top;
+  position: relative;
+}
+.gsf-view-demo .demo-thumb > a {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.gsf-view-demo .demo-item {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.gsf-view-demo .demo-item:hover .demo-thumb {
+  background-position: center bottom;
+}
+.gsf-view-demo .demo-title h4 a {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .demo-items {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .demo-thumb {
+  padding-bottom: 52.88461538461538%;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .demo-item-wrap {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 50px;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .demo-item {
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #fff;
+  overflow: hidden;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .demo-item:hover {
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+.gsf-view-demo.gsf-view-demo-style-01 .demo-item:hover .demo-title h4 {
+  color: #333;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .demo-title h4 {
+  margin-top: 25px;
+  margin-bottom: 6px;
+  color: #ababab;
+  line-height: 24px;
+  min-height: 24px;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .item-new {
+  position: absolute;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  -webkit-transform: rotate(-45deg) translate(-30%, -110%);
+  -moz-transform: rotate(-45deg) translate(-30%, -110%);
+  -ms-transform: rotate(-45deg) translate(-30%, -110%);
+  -o-transform: rotate(-45deg) translate(-30%, -110%);
+  transform: rotate(-45deg) translate(-30%, -110%);
+  color: #fff;
+  width: 150px;
+  text-align: center;
+  left: 0;
+  top: 0;
+  line-height: 24px;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .item-new:before,
+.gsf-view-demo.gsf-view-demo-style-01 .item-new:after {
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  top: -5px;
+  width: 110%;
+  height: 2px;
+}
+.gsf-view-demo.gsf-view-demo-style-01 .item-new:after {
+  top: auto;
+  bottom: -5px;
+  left: -5px;
+}
+.gsf-view-demo.gsf-view-demo-style-02 .demo-items {
+  margin-left: -35px;
+  margin-right: -35px;
+}
+.gsf-view-demo.gsf-view-demo-style-02 .demo-item-wrap {
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 65px;
+}
+.gsf-view-demo.gsf-view-demo-style-02 .demo-thumb-wrap {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.gsf-view-demo.gsf-view-demo-style-02 .demo-thumb {
+  padding-bottom: 118.546845124283%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.gsf-view-demo.gsf-view-demo-style-02 .demo-item:hover .demo-thumb-wrap {
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+.gsf-view-demo.gsf-view-demo-style-02 .demo-title h4 {
+  margin-top: 38px;
+  font-size: 24px;
+  text-align: center;
+}
+.gsf-view-demo.gsf-view-demo-style-02 .item-new {
+  position: absolute;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  background-color: #c61932;
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
+  text-align: center;
+  right: 20px;
+  top: -35px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  animation: new-load-spin 800ms infinite linear;
+  -webkit-animation: new-load-spin 800ms infinite linear;
+}
+@media (max-width: 991px) {
+  .gsf-view-demo.gsf-view-demo-style-01 .demo-items {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .gsf-view-demo.gsf-view-demo-style-01 .demo-item-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+  .gsf-view-demo.gsf-view-demo-style-02 .demo-items {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .gsf-view-demo.gsf-view-demo-style-02 .demo-item-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 55px;
+  }
+  .gsf-view-demo.gsf-view-demo-style-02 .demo-title h4 {
+    margin-top: 25px;
+  }
+  .gsf-view-demo.gsf-view-demo-style-02 .item-new {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    top: -25px;
+  }
+}

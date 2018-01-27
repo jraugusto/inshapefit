@@ -1,0 +1,20 @@
+2018-01-17T13:40:47+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /srv/inshapefit.com.br/www/wp-content/themes/g5plus-april-child/functions.php:32
+Stack trace:
+#0 /srv/inshapefit.com.br/www/wp-includes/class-wp-hook.php(288): sv_change_product_price_display('<span class="wo...')
+#1 /srv/inshapefit.com.br/www/wp-includes/plugin.php(203): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /srv/inshapefit.com.br/www/wp-content/themes/g5plus-april/woocommerce/cart/mini-cart.php(54): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e650a3f311f8342...')
+#3 /srv/inshapefit.com.br/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/srv/inshapefit...')
+#4 /srv/inshapefit.com.br/www/wp-content/themes/g5plus-april/templates/header/customize-item/shopping-cart.php(11): wc_get_template('cart/mini-cart....')
+#5 /srv/inshapefit.com.br/www/wp-content/themes/g5plus-april/inc/helper.class.php(40): include('/srv/inshapefit...')
+#6 /srv/inshapefit.com.br/www/wp-content/themes/g5p
+
+2018-01-17T13:40:54+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /srv/inshapefit.com.br/www/wp-content/themes/g5plus-april-child/functions.php:32
+Stack trace:
+#0 /srv/inshapefit.com.br/www/wp-includes/class-wp-hook.php(288): sv_change_product_price_display('<span class="wo...')
+#1 /srv/inshapefit.com.br/www/wp-includes/plugin.php(203): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /srv/inshapefit.com.br/www/wp-content/themes/g5plus-april/woocommerce/cart/mini-cart.php(54): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e650a3f311f8342...')
+#3 /srv/inshapefit.com.br/www/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/srv/inshapefit...')
+#4 /srv/inshapefit.com.br/www/wp-content/themes/g5plus-april/templates/header/customize-item/shopping-cart.php(11): wc_get_template('cart/mini-cart....')
+#5 /srv/inshapefit.com.br/www/wp-content/themes/g5plus-april/inc/helper.class.php(40): include('/srv/inshapefit...')
+#6 /srv/inshapefit.com.br/www/wp-content/themes/g5p
+
